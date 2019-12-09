@@ -37,7 +37,7 @@ Second is Discriminator
 
  
 ## Result
-#### Download a generator model and test.ipynb to generate faces
+#### Download a generator model and [test.ipynb](/test.ipynb) to generate faces
 ![](https://i.imgur.com/Z9wyikq.gif)
 
 ## Learned
@@ -57,7 +57,7 @@ Sequential 2 是discriminator
 
 ![](https://i.imgur.com/Neh3pu8.png)
 ## 成果
-#### 下載一個generator model然後執行 test.ipynb 來產生臉
+#### 下載一個generator model然後執行 [test.ipynb](/test.ipynb) 來產生臉
 ![](https://i.imgur.com/Z9wyikq.gif)
 
 ## 學到的東西
@@ -76,7 +76,7 @@ Sequential 2: 識別器
 ![](https://i.imgur.com/Neh3pu8.png)
 
 ## 結果
-#### 生成器モデルと test.ipynb をダウンロードして顔を生成する
+#### 生成器モデルと [test.ipynb](/test.ipynb) をダウンロードして顔を生成する
 ![](https://i.imgur.com/Z9wyikq.gif)
 
 ## 学んだこと
