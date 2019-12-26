@@ -10,6 +10,7 @@
 * [Method](#Method)
 * [Architecture](#Architecture)
 * [Result](#Result)
+* [Application](#Application)
 * [Learned](#Learned)
 
 * [More to do](#More)
@@ -30,6 +31,15 @@ Second is Discriminator
 ## Result
 #### Download a generator model and [test.ipynb](/test.ipynb) to generate faces
 ![](https://i.imgur.com/Z9wyikq.gif)
+
+## Application
+Generate a face that look like you (or faces assigned).
+1. choose a model
+2. use [save_pic.ipynb](/save_pic.ipynb) to generate lots of faces
+3. use [database_preprocess.ipynb](/database_preprocess.ipynb) to do face database preprocess
+ * delete some faces that can't be recognized boost efficacy.
+ * seperate database into smaller ones because of Colab environment, it's not required to do this
+4. [Compare.ipynb](/Compare.ipynb) to find the face in database
 
 ## Learned
 1. Train with a same noise in the same epoch, otherwise the model will be prone to generate the same face --> mode collapse
