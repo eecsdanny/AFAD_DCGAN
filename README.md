@@ -5,12 +5,12 @@
 * [日本語](/README_JAPANESE.md)
 
 ## Table of contents
-* English
-    * [Introduction](#Introduction)
-    * [Method](#Method)
-    * [Architecture](#Architecture)
-    * [Result](#Result)
-    * [Learned](#Learned)
+
+* [Introduction](#Introduction)
+* [Method](#Method)
+* [Architecture](#Architecture)
+* [Result](#Result)
+* [Learned](#Learned)
 
 * [More to do](#More)
 * [Reference](#Reference)
