@@ -39,7 +39,7 @@ Generate a face that look like you (or faces assigned).
 3. use [database_preprocess.ipynb](/database_preprocess.ipynb) to do face database preprocess
  * delete some faces that can't be recognized boost efficacy.
  * seperate database into smaller ones because of Colab environment, it's not required to do this
-4. [Compare.ipynb](/Compare.ipynb) to find the face in database
+4. use [Compare.ipynb](/Compare.ipynb) to find the face in database
 
 ## Learned
 1. Train with a same noise in the same epoch, otherwise the model will be prone to generate the same face --> mode collapse
