@@ -1,4 +1,9 @@
 # Asian Face DCGAN using keras
+
+## Language options
+* [中文](/README_CHINESE.md)
+* [日本語](/README_JAPANESE.md)
+
 ## Table of contents
 * English
     * [Introduction](#Introduction)
@@ -6,17 +11,6 @@
     * [Architecture](#Architecture)
     * [Result](#Result)
     * [Learned](#Learned)
-
-* [中文](/README_CHINESE.md)
-
-
-
-* [日本語](#DCGAN偽顔生成)
-    * [はじめに](#はじめに)
-    * [方法](#方法)
-    * [結果](#結果)
-    * [学んだこと](#学んだこと)
-
 
 * [More to do](#More)
 * [Reference](#Reference)
@@ -43,25 +37,6 @@ Second is Discriminator
 
 
 
-
-
-# DCGAN偽顔生成
-
-## はじめに
-DCGANモデルを使用して、アジア人の顔を生成します（トレーニングセット：AFAD）。
-## 方法
-DCGANモデルを使用
-Sequential 1: 生成器
-Sequential 2: 識別器
-![](https://i.imgur.com/Neh3pu8.png)
-
-## 結果
-#### 生成器モデルと [test.ipynb](/test.ipynb) をダウンロードして顔を生成する
-![](https://i.imgur.com/Z9wyikq.gif)
-
-## 学んだこと
-1. 同じエポックで同じノイズでトレーニングします。そうしないと、モデルは同じ顔を生成する傾向があります。 --> mode collapse
-2. 辛抱強い --> 50％または100％の精度の識別器が一時的な場合がある
 
 ## More
 1. Transfer learning
